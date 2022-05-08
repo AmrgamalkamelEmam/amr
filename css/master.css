@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+} 
+.d1{
+  position:relative ;
+  display:inline-block ;
+  margin-right: 100px;
+}
+
+
+.btn{
+  background-color:aliceblue;
+  padding:20px;
+  border:none ;
+  color:white;
+}
+
+ul{
+  margin:0px;
+  padding:0;
+  position:absolute ;
+  display:none;
+  overflow: initial;
+  width: 200px;
+}
+
+li{
+  list-style-type:none;
+width: 200px;
+border:none; 
+
+}
+
+li a{
+  text-decoration:none ;
+  display:block ;
+  padding:5px 15px;
+  background-color:aliceblue;
+}
+
+.d1:hover ul{
+  display:block ;
+}
+
+li a:hover{
+  background-color:#4e9eff;
+  color:white;
+  border:none;
+}
+
+.dropline{
+  display:inline-block ;
+}
+
+
+.drop:hover {
+  display:block ;
+}
+
+.dropline:hover {
+  display:block ;
+}
+
+.material-icons{
+  color:#4e9eff ;
+}
+
+
+.logo{
+    text-decoration: none;
+    color: #4e9eff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 90px;
+  margin-right:150px ;
+  margin-top: 12px;
+}
+
+
+.nav-links
+{
+color: #4e9eff;
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 500;
+margin-left: 50px;
+margin-top: 20px;
+}
+
+
+
+
+.nav-links:hover{
+  color: #601cfc;
+}
+
+input[type="checkbox"]{
+  position: relative;
+  width: 50px;
+  height: 20px;
+  background: #8e8e8e;
+  -webkit-appearance: none;
+  border-radius: 15px;
+  outline: none;
+  transition: .3s;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.532);
+  cursor: pointer;
+}
+input:checked[type="checkbox"]{
+   background: #1259a5;
+
+}
+input[type="checkbox"]::before{
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50% ;
+  transform: scale(1.1);
+  box-shadow: 0 2px rgba(0, 0, 0, 0.532);
+  transition: 0.3s;
+}
+input:checked[type="checkbox"]::before{
+  left: 30px; 
+}
+
+  
+
+  section{
+    padding: 100px 200px;
+  }
+  #section-2
+  {
+    height: 1450px;
+  }
+.main{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(https://www.dontforgettomove.com/wp-content/uploads/2018/09/tips-for-group-travel.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main h2{
+  color: aliceblue;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.main h2 span{
+  color: white;
+  font-size: 3em;
+  font-weight:600;
+  display: inline-block;
+  margin-top: 10px;
+}
+.main h3{
+  color: aliceblue;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+ .main-buttom{
+   color: aliceblue;
+   background-color:#4e9eff;
+   text-decoration: none;
+   font-size: 1.1em;
+   font-weight: 600;
+   display: inline-block;
+   padding: 0.9375em 2.1875em;
+   letter-spacing: 1px;
+   border-radius: 15px;
+   margin-bottom: 40px;
+   transition:0.7s ease;
+ }
+ .main-buttom:hover{
+   background-color:#4a49f6;
+   transform: scale(1.1);
+
+ }
+ .title{
+   display: flex;
+   justify-content: center;
+   color:#3a6cf4;
+   font-size: 2.2em;
+   font-weight: 800;
+   margin-bottom: 30px;
+ }
+ #section-2 .egypt
+ {
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        position: relative;
+        left: 3%;
+        top:45px;
+        box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+        width: 297px;
+        border-radius: 12px;
+        transition: 0.7s ease;
+        margin: 0%;
+        text-decoration: none;
+       }
+ 
+       #section-2 img {
+        width: 297px;
+        height: 150px;
+
+    }
+    #section-2 .france{
+        position: relative;
+        left: 25.5%;
+        bottom:190px;
+        box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+        width: 297px;
+        border-radius: 12px;
+        transition: 0.7s ease;
+        margin: 0%;
+    }
+    #section-2 .china{
+        position: relative;
+        left: 48%;
+        bottom: 423px;
+        box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+        width: 297px;
+        border-radius: 12px;
+        transition: 0.7s ease;
+        margin: 0%;
+    }
+    #section-2 .india{
+        position: relative;
+        left: 70.5%;
+        bottom: 655px;
+        box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+        width: 297px;
+        border-radius: 12px;
+        transition: 0.7s ease;
+        margin: 0%;
+    }
+    #section-2 .america{
+      position: relative;
+        left: 70.5%;
+        bottom: 600px;
+        box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+        width: 297px;
+        border-radius: 12px;
+        transition: 0.7s ease;
+        margin: 0%;
+    }
+    #section-2 .maldiv{
+      position: relative;
+      left: 48%;
+      bottom: 835px;
+      box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+      width: 297px;
+      border-radius: 12px;
+      transition: 0.7s ease;
+      margin: 0%;
+  }
+  #section-2 .italy{
+    position: relative;
+    left: 25.5%;
+    bottom:1070px;
+    box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+    width: 297px;
+    border-radius: 12px;
+    transition: 0.7s ease;
+    margin: 0%;
+}
+#section-2 .italy-2
+ {
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        position: relative;
+        left: 3%;
+        bottom: 1305px;
+        box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+        width: 297px;
+        border-radius: 12px;
+        transition: 0.7s ease;
+        margin: 0%;
+        text-decoration: none;
+       }
+       #section-2 .germany
+ {
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        position: relative;
+        left: 3%;
+        bottom: 1245px;
+        box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+        width: 297px;
+        border-radius: 12px;
+        transition: 0.7s ease;
+        margin: 0%;
+        text-decoration: none;
+       }
+    .imgs{
+        color: black;
+        font-size: 18px;
+        margin-top: 13px;
+        margin-left: 10px;
+        padding-bottom:10px ;
+        text-decoration:none;
+    }
+    #section-2 .max{
+      position: relative;
+      left: 25.5%;
+      bottom:1480px;
+      box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+      width: 297px;
+      border-radius: 12px;
+      transition: 0.7s ease;
+      margin: 0%;
+  }
+  #section-2 .rio{
+    position: relative;
+    left: 48%;
+    bottom: 1715px;
+    box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+    width: 297px;
+    border-radius: 12px;
+    transition: 0.7s ease;
+    margin: 0%;
+}
+#section-2 .dubai{
+  position: relative;
+    left: 70.5%;
+    bottom: 1950px;
+    box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+    width: 297px;
+    border-radius: 12px;
+    transition: 0.7s ease;
+    margin: 0%;
+}
+#section-2 .egypt-2
+ {
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        position: relative;
+        left: 3%;
+        bottom: 1880px;
+        box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+        width: 297px;
+        border-radius: 12px;
+        transition: 0.7s ease;
+        margin: 0%;
+        text-decoration: none;
+       }
+       #section-2 .england{
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        position: relative;
+        left: 25.5%;
+        bottom: 2110px;
+        box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+        width: 297px;
+        border-radius: 12px;
+        transition: 0.7s ease;
+        margin: 0%;
+        text-decoration: none;
+      }
+    
+       #section-2 img:hover{
+      opacity: 0.9;
+  }
+  #section-2 .egypt:hover{
+      transform: scale(1.1);
+  }
+  #section-2 .france:hover{
+      transform: scale(1.1);
+  }
+  #section-2 .china:hover{
+      transform: scale(1.1);
+  }
+  #section-2 .india:hover{
+      transform: scale(1.1);
+  }
+  #section-2 .america:hover{
+      transform: scale(1.1);
+  }
+  #section-2 .maldiv:hover{
+      transform: scale(1.1);
+  }
+  #section-2 .italy:hover{
+      transform: scale(1.1);
+  }
+  #section-2 .italy-2:hover{
+      transform: scale(1.1);
+  }
+  #section-2 .germany:hover{
+      transform: scale(1.1);
+  }
+  #section-2 .max:hover{
+      transform: scale(1.1);
+  }
+  #section-2 .rio:hover{
+      transform: scale(1.1);
+  }
+  #section-2 .dubai:hover{
+      transform: scale(1.1);
+  }
+  #section-2 .egypt-2:hover{
+      transform: scale(1.1);
+  }
+  #section-2 .england:hover{
+      transform: scale(1.1);
+  }
+  a{
+    text-decoration: none;
+  }
+  #section-2 a:hover{
+text-decoration: underline;
+  }
+  .videos
+{
+background-color:#24252A;
+height: 2050px;
+
+
+}
+.title-2{
+   color: #3a6cf4;
+   display: flex;
+   justify-content: center;
+   font-size: 2.6em;
+   font-weight: 950;
+   margin-bottom: 30px;
+}
+  .video-1{
+margin-left: 100px;
+width: 1280px;
+height: 720px;
+display: flex;
+justify-content: center;
+margin-top: 50px;
+
+ }
+.video-2{
+
+    margin-left: 100px;
+
+width: 1280px;
+height: 720px;
+display: flex;
+justify-content: center;
+margin-top: 50px;
+
+}
+
+
+.card {
+  background-color: #fff;
+  width: 16em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 10px;
+  margin: 40px;
+  margin-left: 0%;
+  padding: 20px;
+  transition: 0.7s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+.contact .icon{
+  font-size: 4.5em;
+}
+
+.contact .info h3 {
+  color: #000;
+}
+
+.contact .info p {
+  font-size: 1.5em;
+}
+
+.footer {
+  background-color: #24252a;
+  color: #fff;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-size: 1.3em;
+  font-weight: 600;
+  color:#3a6cf4 ;
+  
+}
+
+
+.footer .social-icons {
+  font-size: 1.8em;
+  padding: 0 12px 0 ;
+  color: #3a6cf4;
+}
+
+
+@media (max-width:300px){
+  body{
+      font-size: 10px;
+   
+  }
+}.content {
+    
+    
+  display:flex;
+  
+  justify-content:center;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+p{
+  font-size: 1.4em;
+  font-weight: 100;
+  color: white;
+  margin-top:20px ;
+  margin-bottom:20px ;
+  padding-left:20px;
+  padding-right:20px ;
+}
+
+
+
+  
