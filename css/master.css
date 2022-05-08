@@ -532,7 +532,7 @@ margin-top: 50px;
   flex-direction:row;
   flex-wrap:wrap;
 }
-.video p{
+p{
   font-size: 1.4em;
   font-weight: 100;
   color: white;
@@ -541,7 +541,10 @@ margin-top: 50px;
   padding-left:20px;
   padding-right:20px ;
 }
-
+.random{
+  color: black;
+  font-weight: 200;
+}
 
 
   
