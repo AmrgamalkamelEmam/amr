@@ -532,7 +532,7 @@ margin-top: 50px;
   flex-direction:row;
   flex-wrap:wrap;
 }
-p{
+.video p{
   font-size: 1.4em;
   font-weight: 100;
   color: white;
