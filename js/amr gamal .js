@@ -325,9 +325,6 @@ document.getElementById("uu").style.backgroundColor="aliceblue";
 
 
 
-    document.getElementById("t1").style.paddingLeft="0px";
-    document.getElementById("t2").style.paddingLeft="0px";
-    document.getElementById("t3").style.paddingLeft="0px";
 
 
 
