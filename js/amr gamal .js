@@ -101,7 +101,7 @@ s.style.fontSize="large";
 s.style.padding="50px 50px";
 
 var image= document.getElementById("img");
-image.setAttribute("src","media/sss.jpg");
+image.setAttribute("src","../media/sss.jpg");
 
 document.getElementById("card1").style.width="15em";
 document.getElementById("card2").style.width="15em";
@@ -238,7 +238,7 @@ s.style.fontSize="medium";
 s.style.padding="100px 100px";
 
 var image= document.getElementById("img");
-image.setAttribute("src","media/pyramids-of-giza_408476.jpg");
+image.setAttribute("src","../media/pyramids-of-giza_408476.jpg");
 
 document.getElementById("card1").style.width="23em";
 document.getElementById("card2").style.width="23em";
@@ -372,7 +372,7 @@ function theme2(checkbox)
         s.style.padding="50px 50px";
         
         var image= document.getElementById("img");
-        image.setAttribute("src","media/AMR.jpg");
+        image.setAttribute("src","../media/AMR.jpg");
         image.style.height="1000px";
         
         document.getElementById("card1").style.width="15em";
