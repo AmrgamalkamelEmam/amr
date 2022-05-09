@@ -128,7 +128,7 @@ input:checked[type="checkbox"]::before{
 }
 .body{
   color: hsl(250, 100%, 10%);
-  background: url("../media/logo.jpg");
+  background: url("../media/logoo.jpg");
   background-repeat: no-repeat;
   background-position: 50%;
   width: 100%;
