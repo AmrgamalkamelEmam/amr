@@ -546,5 +546,41 @@ p{
   font-weight: 400;
 }
 
+@media (max-width:1366px){
+body{
+font-size: 15px;
+overflow-x: hidden;
+
+}
+#section-2 {
+
+    padding: 0;
+    margin: 0;
+}
+.video-1{
+
+    width: 900px;
+    margin-left:245px;
+
+}
+
+.video-2{
+
+    width: 900px;
+    margin-left:245px;
+
+
+}
+
+#section-2 .egypt
+{
+
+    margin-right:20px;
+}
+.videos{
+    padding: 0;
+    margin: 0;
+}
+}
 
   
