@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+header{
+    display: flex; 
+    position: fixed; 
+    background-color: aliceblue; 
+    width: 100%;
+    z-index: 1000;
+}
+.d1{
+    position:relative ;
+    display:inline-block ;
+    margin-right: 100px;
+}
+.btn{
+  background-color:aliceblue;
+  padding:20px;
+  border:none ;
+  color:white;
+}
+ul{
+  margin:0px;
+  padding:0;
+  position:absolute ;
+  display:none;
+  overflow: initial;
+  width: 200px;
+}  
+li{
+  list-style-type:none;
+  width: 200px;
+  border:none; 
+}
+li a{
+  text-decoration:none ;
+  display:block ;
+  padding:5px 15px;
+  background-color:aliceblue;
+}
+.d1:hover ul{
+  display:block ;
+}
+li a:hover{
+  background-color:#4e9eff;
+  color:white;
+  border:none;
+}
+.dropline{
+  display:inline-block ;
+}
+.drop:hover {
+  display:block ;
+}
+.dropline:hover {
+  display:block ;
+}
+.material-icons{
+  color:#4e9eff ;
+}
+.logo{
+  text-decoration: none;
+  color: #4e9eff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-left: 90px;
+  margin-right:150px ;
+  margin-top: 12px;
+}
+.nav-links{
+  color: #4e9eff;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.nav-links:hover{
+  color: #601cfc;
+}
+input[type="checkbox"]{
+  position: relative;
+  width: 50px;
+  height: 20px;
+  background: #8e8e8e;
+  -webkit-appearance: none;
+  border-radius: 15px;
+  outline: none;
+  transition: .3s;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.532);
+  cursor: pointer;
+}
+input:checked[type="checkbox"]{
+  background: #1259a5;
+}
+input[type="checkbox"]::before{
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50% ;
+  transform: scale(1.1);
+  box-shadow: 0 2px rgba(0, 0, 0, 0.532);
+  transition: 0.3s;
+}
+input:checked[type="checkbox"]::before{
+  left: 30px; 
+}
+#non1{
+  color: #004d2e;
+  font-weight: bolder;
+  font-size: 25px;
+  font-family:fantasy;
+}
+#his{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+#ono1{
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: inline-block;
+}
+.body{
+  color: hsl(250, 100%, 10%);
+  background: url("../media/logo.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+.a{
+  position: absolute;
+  left: 570px; top: 200px;
+  letter-spacing: 7px;
+  font-family:cursive ;
+  font-size: 70px;
+  font-weight: bolder;
+}
+.hr{
+  margin: 0;
+  background: linear-gradient(#001b42,rgb(255, 255, 255));
+  height: 20px;
+}
+.space{
+  height: 100px;
+}
+.all{
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: inline-block;
+}
+.what {
+    background: url("../media/loc2.jfif");
+    background-repeat: no-repeat;
+    background-position: 95%;
+}
+#what{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.no{
+    color: #004d2e;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family:fantasy;
+    
+}
+.pp{
+    margin-right: 370px;
+}
+.link{
+    color: #004d2e;
+}
+.link:hover{
+    image-orientation:from-image;
+    text-decoration:underline;
+    color: #1259a5;
+    }
+.name{
+    color: #004d2e;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family:fantasy;
+}
+#name{
+    background: url("../media/nam.png");
+    background-position: 95%;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.nname{
+    margin-right: 370px;
+
+}
+#islam{
+    color: #004d2e;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family:fantasy;
+}
+#isslam{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+#enviroment{
+    color: #004d2e;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family:fantasy;
+}
+#eenviroment{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+hr{
+    background: hsl(195, 100%, 13%) ;
+    height: 3px;
+}
+.clim{
+    background: url("../media/mna.webp");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 450px;
+}
+#clim{
+    color: #004d2e;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family:fantasy;
+}
+#cclim{
+    margin-right: 450px;
+}
+#ccllim{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+#vedio:hover{
+    transform: scale(1.1);
+}
+#vedio{
+    width: 40%;
+    height: 40%;
+    margin-left: 30%;
+    border-style:solid;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#img1:hover{
+    transform: scale(1.1);
+}
+#img2:hover{
+    transform: scale(1.1);
+}
+#imgg{
+  height: 40px;
+}
+#iimggg{
+  height: 50px;
+}
+.img1{
+    width: 450px;
+    height: 325px;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style:solid;
+    border-radius: 5px;
+}
+#img1{
+    margin-left: 200px;
+    display: inline-block;
+    transition: 0.5s;
+    
+}
+#img2{
+    margin-left: 200px;;
+    display: inline-block;
+    transition: 0.5s;
+}
+.img2{
+    width: 450px;
+    height: 325px;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style:solid;
+    border-radius: 5px;
+}
+.cardsContact{
+    height: 400px;
+    position: relative;
+}
+.title{
+    text-align: center;
+    color:#3a6cf4 ;
+    font-size: 40px;
+    
+}
+.card {
+    background-color: #fff;
+    width: 12em;
+    height: 70px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    margin: 100px;
+    margin-left: 0%;
+    padding: 20px;
+    transition: 0.7s ease;
+    justify-content: center;
+    font-size: 23px;
+    padding-top: 30px;
+  }
+.card:hover {
+    transform: scale(1.1);
+}
+.contact .icon{
+    font-size: 4.5em;
+}
+.contact .info h3 {
+    color: #000;
+}
+.contact .info p {
+    font-size: 1.5em;
+}
+.footer {
+    background-color: #24252a;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+    color:#3a6cf4 ;
+    
+}
+.footer .social-icons {
+    font-size: 1.8em;
+    padding: 0 12px 0 ;
+    color: #3a6cf4;
+}
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+        margin-left: 0;
+        margin-right: 0;
+     
+    }
+}
+.content {  
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-left: 100px;
+}
+
