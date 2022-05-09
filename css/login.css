@@ -33,7 +33,7 @@ border:none;
 li a{
   text-decoration:none ;
   display:block ;
-  padding:5px 15px;
+  padding:7px 18px;
   background-color:aliceblue;
 color: #4e9eff;
 }
@@ -135,33 +135,7 @@ input:checked[type="checkbox"]::before{
     #form {
       width:400px;
     }
-  }
-      @-webkit-keyframes animatebottom {
-    0% {
-  opacity:0;
-      margin-top:500px;
-  }
-  
-  
-  
-  100% {
-  opacity:1;
-      margin-top:0px;
-  }
-  }
-  
-  @keyframes animatebottom { 
-    0% {
-  opacity:0;
-      margin-top:500px;
-  }
-  
-  
-  
-  100% {
-  opacity:1;
-      margin-top:0px;
-  }
+ 
   }
  .tt{
  color: #24252a;
@@ -252,7 +226,7 @@ input:checked[type="checkbox"]::before{
           }
    .rr{
     margin-top: 20px ;
-margin-left: 40px;
+
 
    }       
           
