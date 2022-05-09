@@ -181,9 +181,7 @@ a[i].style.color="#1d1d1d";
     document.getElementById("p14").style.backgroundColor="gray";
 
 
-    document.getElementById("t1").style.paddingLeft="455px";
-    document.getElementById("t2").style.paddingLeft="420px";
-    document.getElementById("t3").style.paddingLeft="420px";
+    
 
 
 
