@@ -324,7 +324,7 @@ input:checked[type="checkbox"]::before{
       width: 297px;
       border-radius: 12px;
       transition: 0.7s ease;
-      margin: 0 30px ;
+      margin: 0 50px 0 0 ;
   }
   #section-2 .rio{
     position: relative;
@@ -334,7 +334,7 @@ input:checked[type="checkbox"]::before{
     width: 297px;
     border-radius: 12px;
     transition: 0.7s ease;
-    margin: 0 30px ;
+    margin: 0 50px 0 0 ;
 }
 #section-2 .dubai{
   position: relative;
