@@ -209,7 +209,7 @@ input:checked[type="checkbox"]::before{
         width: 297px;
         border-radius: 12px;
         transition: 0.7s ease;
-        margin: 0 30px;
+        margin: 0 50px 0 0;
         text-decoration: none;
        }
  
@@ -226,7 +226,7 @@ input:checked[type="checkbox"]::before{
         width: 297px;
         border-radius: 12px;
         transition: 0.7s ease;
-        margin: 0 30px ;
+        margin: 0 50px 0 0 ;
     }
     #section-2 .china{
         position: relative;
@@ -236,7 +236,7 @@ input:checked[type="checkbox"]::before{
         width: 297px;
         border-radius: 12px;
         transition: 0.7s ease;
-        margin: 0 30px ;
+        margin: 0 50px 0 0 ;
     }
     #section-2 .india{
         position: relative;
@@ -246,7 +246,7 @@ input:checked[type="checkbox"]::before{
         width: 297px;
         border-radius: 12px;
         transition: 0.7s ease;
-        margin: 0 30px ;
+        margin: 0 50px 0 0 ;
     }
     #section-2 .america{
       position: relative;
@@ -256,7 +256,7 @@ input:checked[type="checkbox"]::before{
         width: 297px;
         border-radius: 12px;
         transition: 0.7s ease;
-        margin: 0 30px ;
+        margin: 0 50px 0 0 ;
     }
     #section-2 .maldiv{
       position: relative;
@@ -266,7 +266,7 @@ input:checked[type="checkbox"]::before{
       width: 297px;
       border-radius: 12px;
       transition: 0.7s ease;
-      margin: 0 30px ;
+      margin: 0 50px 0 0 ;
   }
   #section-2 .italy{
     position: relative;
@@ -276,7 +276,7 @@ input:checked[type="checkbox"]::before{
     width: 297px;
     border-radius: 12px;
     transition: 0.7s ease;
-    margin: 0 30px ;
+    margin: 0 50px 0 0 ;
 }
 #section-2 .italy-2
  {
@@ -290,7 +290,7 @@ input:checked[type="checkbox"]::before{
         width: 297px;
         border-radius: 12px;
         transition: 0.7s ease;
-        margin: 0 30px ;
+        margin: 0 50px 0 0 ;
         text-decoration: none;
        }
        #section-2 .germany
@@ -305,7 +305,7 @@ input:checked[type="checkbox"]::before{
         width: 297px;
         border-radius: 12px;
         transition: 0.7s ease;
-        margin: 0 30px ;
+        margin:0 50px 0 0;
         text-decoration: none;
        }
     .imgs{
@@ -344,7 +344,7 @@ input:checked[type="checkbox"]::before{
     width: 297px;
     border-radius: 12px;
     transition: 0.7s ease;
-    margin: 0 30px ;
+    margin: 0 50px 0 0 ;
 }
 #section-2 .egypt-2
  {
@@ -358,7 +358,7 @@ input:checked[type="checkbox"]::before{
         width: 297px;
         border-radius: 12px;
         transition: 0.7s ease;
-        margin: 0 30px ;
+        margin: 0 50px 0 0 ;
         text-decoration: none;
        }
        #section-2 .england{
@@ -372,7 +372,7 @@ input:checked[type="checkbox"]::before{
         width: 297px;
         border-radius: 12px;
         transition: 0.7s ease;
-        margin: 0 30px;
+        margin: 0 50px 0 0;
         text-decoration: none;
       }
     
