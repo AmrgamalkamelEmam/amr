@@ -197,21 +197,7 @@ font-size:1.3em ;
     width: 15em;
 
 }
-img{
-float: none;
 
-
-
-
-}
-.card > h3{
-    color: #3a6cf4;
-    font-size: 1.2em;
-    font-weight: 700;
-    margin: 10px;
-    padding: 0px 10px 10px 10px ;
-    text-align: center;
-}
 
 .projects {
     background-color: #000016de;
