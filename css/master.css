@@ -147,6 +147,7 @@ input:checked[type="checkbox"]::before{
   background: url(https://www.dontforgettomove.com/wp-content/uploads/2018/09/tips-for-group-travel.jpg) no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 .main h2{
   color: aliceblue;
