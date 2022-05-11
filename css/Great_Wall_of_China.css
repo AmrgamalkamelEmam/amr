@@ -163,7 +163,7 @@ input:checked[type="checkbox"]::before {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(Great_Wall_of_China_July_2006.jpg) no-repeat;
+    background: url(../media/Great_Wall_of_China_July_2006.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
