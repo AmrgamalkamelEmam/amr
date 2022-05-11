@@ -166,7 +166,7 @@ width: 1200px; ;
 height:550px ;
 border:2px  #000 solid;
 margin: auto;
-background-image:url(pp.jpg) ;
+background-image:url(../media/pp.jpg) ;
 background-size:1200px 550px;
 }
 
