@@ -419,27 +419,31 @@ height: 2050px;
    font-weight: 950;
    margin-bottom: 30px;
 }
-  .video-1{
-margin-left: 100px;
-width: 1280px;
-height: 720px;
-display: flex;
-justify-content: center;
-margin-top: 50px;
 
- }
-.video-2{
-
-    margin-left: 100px;
-
-width: 1280px;
-height: 720px;
-display: flex;
-justify-content: center;
-margin-top: 50px;
-
+.hy{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.hyc{
+  margin-bottom: 5em;
+  width: 64em;
+  height: 50em;
+}
+
+
+.video-1{
+  width: 1000px;
+  height: 600px;
+  margin-bottom: 20px;
+}
+
+.video-2{
+  width: 1000px;
+  height: 600px;
+  margin-bottom: 20px;
+}
 
 .card {
   background-color: #fff;
@@ -513,10 +517,7 @@ p{
   font-size: 1.4em;
   font-weight: 100;
   color: white;
-  margin-top:20px ;
-  margin-bottom:20px ;
-  padding-left:20px;
-  padding-right:20px ;
+  margin-bottom:20px;
 }
 .random{
   color: black;
