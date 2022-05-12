@@ -395,20 +395,5 @@
   font-size: 2.2em;
   font-weight: 800;
 }
-    .mm{
-    background-image: url(../media/omar.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    }
-   .main{
-    padding: 100px 200px;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background: url(../media/omar.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-   }
+    
 
