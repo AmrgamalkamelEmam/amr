@@ -135,35 +135,7 @@ a{
     text-decoration: none;
     color: rgb(17, 49, 233);
 }
-header{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 3em;
-}
-header .logo{
-    font-size: large;
-    text-transform: uppercase;
-}
-header ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-}
-header ul li a{
-    padding: 6px 15px;
-    border-radius: 20px;
-}
-header ul li{
-    margin-right: 30px;
-    font-size: large;
-}
-header ul li a:hover{
-    background: #ffff;
-    color: black;
-}
+
 .content h3{
     font-size: 30px;
     padding-top: -10em;
