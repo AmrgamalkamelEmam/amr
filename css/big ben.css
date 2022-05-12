@@ -207,8 +207,8 @@ input:checked[type="checkbox"]::before {
 }
 
 .video {
-    width: 1600px;
-    height: 1000px;
+    width: 800px;
+    height: 600px;
     margin-left: 50px;
 
 }
