@@ -155,10 +155,10 @@
   .abc{
       background:url("../media/image5.jpg");
       background-repeat: no-repeat;
-      background-position: 95%;
+      background-position: 0%;
       background-size:200px;
       position:relative;
-      margin-right:200px;
+      margin-left:300px;
       
   }
 
