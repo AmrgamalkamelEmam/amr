@@ -1,6 +1,7 @@
 header{
-    z-index: 99;
+  z-index: 99;
 }
+
 
 .d1{
     position:relative ;
@@ -16,7 +17,7 @@ header{
     color:white;
   }
   
-  .ul1{
+  ul{
     margin:0px;
     padding:0;
     position:absolute ;
@@ -25,14 +26,14 @@ header{
     width: 200px;
   }
   
-  .li1{
+  li{
     list-style-type:none;
   width: 200px;
   border:none;
   
   }
   
-  .li1 a{
+  li a{
     text-decoration:none ;
     display:block ;
     padding:5px 15px;
@@ -43,7 +44,7 @@ header{
     display:block ;
   }
   
-  .li1 a:hover{
+  li a:hover{
     background-color:#4e9eff;
     color:white;
     border:none;
