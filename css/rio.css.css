@@ -406,7 +406,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(title.jpg.jpg) no-repeat;
+    background: url(.//media/title.jpg.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
