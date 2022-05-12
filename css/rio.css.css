@@ -396,7 +396,7 @@
   font-weight: 800;
 }
     .mm{
-    background-image: url(title.jpg.jpg);
+    background-image: url(../media/title.jpg.jpg);
     background-attachment: fixed;
     background-size: cover;
     }
