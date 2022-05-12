@@ -152,11 +152,16 @@
     font-size: 30px;
     padding-top: 1.5em;
   }
+.cccc{
+ background:url("../media/image5.jpg");
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size:200px;
+}
+
   .abc{
-      background:url("../media/image5.jpg");
-      background-repeat: no-repeat;
-      background-position: 0%;
-      background-size:200px;
+      
+    
       position:relative;
       margin-left:300px;
       
