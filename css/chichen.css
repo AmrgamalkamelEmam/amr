@@ -1,20 +1,19 @@
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .d1{
   position:relative ;
   display:inline-block ;
   margin-right: 100px;
 }
-#center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
 .btn{
   background-color:aliceblue;
   padding:20px;
   border:none ;
   color:white;
 }
-
 .bb{
   margin:0px;
   padding:0;
