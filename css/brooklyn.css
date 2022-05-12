@@ -152,10 +152,10 @@
     font-size: 30px;
     padding-top: 1.5em;
   }
-  .image2{
-    padding-top: 4em;
-    margin-inline-end: 69em;
+  .abc{
+   background:url("../media/image5.jpg")
   }
+
   .content p3{
     padding-bottom: 2em;
     display: block;
