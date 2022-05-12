@@ -396,7 +396,7 @@
   font-weight: 800;
 }
     .mm{
-    background-image: url(../media/title.jpg.jpg);
+    background-image: url(../media/omar.jpg);
     background-attachment: fixed;
     background-size: cover;
     }
@@ -406,7 +406,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../media/title.jpg.jpg) no-repeat;
+    background: url(../media/omar.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
