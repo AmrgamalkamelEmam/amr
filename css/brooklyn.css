@@ -153,7 +153,11 @@
     padding-top: 1.5em;
   }
   .abc{
-   background:url("../media/image5.jpg")
+      background:url("../media/image5.jpg");
+      background-repeat: no-repeat;
+      background-position: 95%;
+      background-size:200px;
+      
   }
 
   .content p3{
