@@ -15,7 +15,7 @@ function login(){
     
 if(x.trim()!=""&&y.trim()!="")
     {
-        alert("welcome back user : "+x);
+        alert("welcome : "+x);
         $("info").innerHTML="You are logged in as:<br><br>Username: <b>"+x+"</b><br>Password: <b>"+y+"</b>";
   $("ma").style.display="none";
   $("out").style.display="inline"; 
