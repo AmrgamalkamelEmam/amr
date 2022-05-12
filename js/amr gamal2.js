@@ -5,10 +5,7 @@ function  $(id)
 }
 
 
-function uc(){
-    $("1").style.display="none";
-    $("2").style.display="inline";
-}
+
 function login(){
     var x = $("un").value;
     var y = $("psw").value;
