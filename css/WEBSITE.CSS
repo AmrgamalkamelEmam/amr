@@ -2,6 +2,12 @@
     margin: 0px;
     padding: 0px;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
 .d1{
     position:relative ;
     display:inline-block ;
